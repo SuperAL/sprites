@@ -1,0 +1,24 @@
+/*注册 math 方法*/
+/*F:\Projects - relative\Sprite\node_modules\_handlebars@4.0.10@handlebars\dist\cjs\handlebars\compiler\compiler.js
+'math':  true
+F:\Projects - relative\Sprite\node_modules\_handlebars@4.0.10@handlebars\dist\cjs\handlebars\helpers.js
+var _helpersMath = require('./helpers/Math');
+var _helpersMath2 = _interopRequireDefault(_helpersMath);
+_helpersMath2['default'](instance);
+F:\Projects - relative\Sprite\node_modules\_handlebars@4.0.10@handlebars\dist\amd\handlebars\helpers.js
+'./helpers/math'
+_helpersMath
+var _registerMath = _interopRequireDefault(_helpersMath);
+_registerMath['default'](instance);
+F:\Projects - relative\Sprite\node_modules\_handlebars@4.0.10@handlebars\dist\amd\handlebars\compiler\compiler.js
+'math': true*/
+
+
+
+{{#sprites}}
+.icon-{{name}} {
+  background-image: url({{{escaped_image}}});
+  background-position: {{math px.offset_x '/' 2}} {{math px.offset_y '/' 2}};
+}
+{{/sprites}}
+

@@ -1,0 +1,69 @@
+.icon {
+  display: inline-block;
+  vertical-align: sub;
+  background-size: 130px 124px;
+  background-image: url(../imgs/sprite.png);
+  width: 42px;
+  height: 16px;
+  margin-left: 8px;
+}
+.icon-1 {
+  background-position: 0px -18px;
+}
+.icon-10 {
+  background-position: -88px -36px;
+}
+.icon-11 {
+  background-position: -44px 0px;
+}
+.icon-12 {
+  background-position: -44px -18px;
+}
+.icon-13 {
+  background-position: 0px -36px;
+}
+.icon-14 {
+  background-position: -44px -36px;
+}
+.icon-15 {
+  background-position: 0px -54px;
+}
+.icon-16 {
+  background-position: -44px -54px;
+}
+.icon-17 {
+  background-position: -88px 0px;
+}
+.icon-18 {
+  background-position: -88px -18px;
+}
+.icon-19 {
+  background-position: 0px 0px;
+}
+.icon-2 {
+  background-position: -88px -54px;
+}
+.icon-20 {
+  background-position: 0px -72px;
+}
+.icon-3 {
+  background-position: -44px -72px;
+}
+.icon-4 {
+  background-position: -88px -72px;
+}
+.icon-5 {
+  background-position: 0px -90px;
+}
+.icon-6 {
+  background-position: -44px -90px;
+}
+.icon-7 {
+  background-position: -88px -90px;
+}
+.icon-8 {
+  background-position: 0px -108px;
+}
+.icon-9 {
+  background-position: -44px -108px;
+}
